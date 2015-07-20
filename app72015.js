@@ -6,18 +6,10 @@ var btns = {
   bstt: function() {
     $( "div.box" ).stop( true, true );
   },
-  bs: function() {
-    $( "div.box" ).stop();
-  },
   bsft: function() {
     $( "div.box" ).stop( false, true );
   },
-  bf: function() {
-    $( "div.box" ).finish();
-  },
-  bcf: function() {
-    $( "div.box" ).clearQueue().finish();
-  },
+
   bsff: function() {
     $( "div.box" ).stop( false, false );
   },
